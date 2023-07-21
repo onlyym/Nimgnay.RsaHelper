@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>RsaHelper</Title>
+    <Description>RSA加密解密，加签解签帮助类,支持定义加密模式，自适应加密字符串长度</Description>
+    <RepositoryUrl>https://github.com/onlyym/RSAHelper</RepositoryUrl>
+    <!--以下是我们自己添加的-->
+    <!--版本号，重要性不必多说-->
+    <Version>1.0.6</Version>
+    <!--添加该配置，在编译时进行打包-->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <!--添加该配置才会生成注释文件，默认无注释-->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>rsa.jpg</PackageIcon>
+    <Authors>Nimgnay</Authors>
+    <PackageId>Nimgnay.RSAHelper</PackageId>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="C:\Users\admin\Desktop\rsa.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
