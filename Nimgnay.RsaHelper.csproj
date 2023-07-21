@@ -7,10 +7,10 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>RsaHelper</Title>
     <Description>RSA加密解密，加签解签帮助类,支持定义加密模式，自适应加密字符串长度</Description>
-    <RepositoryUrl>https://github.com/onlyym/RSAHelper</RepositoryUrl>
+    <RepositoryUrl>https://github.com/onlyym/Nimgnay.RsaHelper</RepositoryUrl>
     <!--以下是我们自己添加的-->
     <!--版本号，重要性不必多说-->
-    <Version>1.0.6</Version>
+    <Version>1.0.7</Version>
     <!--添加该配置，在编译时进行打包-->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <!--添加该配置才会生成注释文件，默认无注释-->
